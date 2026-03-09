@@ -1,0 +1,17 @@
+{{ $background := .Site.Params.background_color_class | compare.Default "bg-black" }}
+{{ $links := slice }}
+{{ with .Site.Home }}
+  {{ with .Params.profile_links }}
+    {{ $links = . }}
+  {{ end }}
+{{ end }}
+<footer class="{{ $background }} bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex flex-column flex-row-ns justify-between items-center">
+    <a class="f4 fw4 hover-white white-70 pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}">
+      &copy; {{ (default .Site.Title .Site.Home.Title) | safeHTML }} {{ now.Format "2006" }}
+    </a>
+    <div class="mt3 mt0-ns">
+      {{ partials.IncludeCached "social/follow.html" . }}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,35 @@
+{{- $page := .page | default .Page | default . -}}
+{{- $class := .class | default "mt3 flex items-center justify-center" -}}
+{{- $links := or $page.Params.profile_links (index $page.Site.Params "profile_links") -}}
+{{- if $links }}
+<div class="{{ $class }}">
+  {{- range $links }}
+    {{- $name := index . "name" -}}
+    {{- $lower := strings.ToLower $name -}}
+    {{- $url := index . "url" -}}
+    <a href="{{ $url }}" class="link dim dark-gray mh2" aria-label="{{ $name }}" {{ if not (strings.HasPrefix $url "mailto:") }}target="_blank" rel="noopener"{{ end }}>
+      {{- if eq $lower "email" -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+      {{- else if or (eq $lower "linkedin") (eq $lower "link") -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h3.96v12H3zM9.5 9H13v1.71h.05c.49-.93 1.69-1.91 3.49-1.91 3.73 0 4.41 2.45 4.41 5.63V21H17v-5.62c0-1.34-.02-3.07-1.87-3.07-1.87 0-2.15 1.46-2.15 2.97V21H9.5z"/>
+        </svg>
+      {{- else if eq $lower "github" -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.29-1.71-1.29-1.71-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.35.96.1-.75.4-1.26.72-1.55-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.44-2.27 1.17-3.07-.12-.29-.51-1.45.11-3.03 0 0 .97-.31 3.19 1.17a11.1 11.1 0 0 1 5.82 0c2.22-1.48 3.18-1.17 3.18-1.17.62 1.58.23 2.74.11 3.03.73.8 1.16 1.82 1.16 3.07 0 4.4-2.69 5.36-5.25 5.64.41.36.77 1.07.77 2.16 0 1.56-.01 2.82-.01 3.21 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+        </svg>
+      {{- else if or (eq $lower "google scholar") (eq $lower "scholar") -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2 1.5 9.5 12 17l7-4.9V17h3V9.5L12 2z"/>
+          <path d="M5 19h6v3H5z"/>
+        </svg>
+      {{- else -}}
+        <span class="f5">{{ $name }}</span>
+      {{- end }}
+    </a>
+  {{- end }}
+</div>
+{{- end }}

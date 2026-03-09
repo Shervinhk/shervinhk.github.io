@@ -1,0 +1,51 @@
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center">
+    <div class="flex items-center">
+      <a href="{{ "/" | relLangURL }}" class="hover-white no-underline white-90">
+        <span class="f3 fw2">Shervin Hakimi</span>
+      </a>
+    </div>
+    <div class="flex-l items-center">
+      <ul class="pl0 mr3 flex items-center">
+        {{ $projectsPath := printf "/%s/projects" .Site.Language.Lang }}
+        {{ $projects := site.GetPage $projectsPath }}
+        {{ with $projects }}
+        <li class="list f5 f4-ns fw4 dib pr3">
+          <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
+            Projects
+          </a>
+        </li>
+        {{ end }}
+        {{ $postPath := printf "/%s/post" .Site.Language.Lang }}
+        {{ $postSection := site.GetPage $postPath }}
+        {{ with $postSection }}
+        <li class="list f5 f4-ns fw4 dib pr3">
+          <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
+            Notes
+          </a>
+        </li>
+        {{ end }}
+        {{ $interestsPath := printf "/%s/interests" .Site.Language.Lang }}
+        {{ $interests := site.GetPage $interestsPath }}
+        {{ with $interests }}
+        <li class="list f5 f4-ns fw4 dib pr3">
+          <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
+            Interests
+          </a>
+        </li>
+        {{ end }}
+        <li class="list f5 f4-ns fw4 dib pr3">
+          <a class="hover-white white-90 no-underline" href="{{ "/CV.pdf" | relURL }}" target="_blank" rel="noopener">
+            CV
+          </a>
+        </li>
+        <li class="list f5 f4-ns fw4 dib pr3 white">|</li>
+        <li class="list f5 f4-ns fw4 dib pr3">
+          <a class="hover-white white-90 no-underline" href="{{ "/fa/" | relURL }}">
+            فا
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,29 @@
+{{/* Render highlights: show first 3 posts from each of the given sections */}}
+<div class="highlights">
+  <h2>Highlights</h2>
+  <div class="mt3">
+    {{ $sections := .Params.highlights | default (slice "post" "projects") }}
+    {{ range $sections }}
+      {{ $sec := $.Site.GetPage "section" . }}
+      {{ with $sec }}
+        {{ $pages := .Pages | first 3 }}
+        {{ range $pages }}
+          <div class="bb b--black-10 pv3">
+            <div class="flex items-start">
+              {{ $img := partial "func/GetFeaturedImage.html" . }}
+              {{ if $img }}
+                <div class="w-30 mr3">
+                  <a href="{{ .RelPermalink }}"><img src="{{ $img }}" alt="{{ .Title }}" /></a>
+                </div>
+              {{ end }}
+              <div class="flex-auto">
+                <a href="{{ .RelPermalink }}" class="f5 b">{{ .Title }}</a>
+                <p class="mt1 f6">{{ .Summary }}</p>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

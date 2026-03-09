@@ -1,0 +1,97 @@
+{{ define "main" }}
+  {{ if or .IsHome (eq .Layout "index") }}
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    {{ $introImage := "/images/me.jpeg" }}
+    {{ $langCode := .Lang }}
+    {{ $langDir := strings.ToLower (default "" $.Site.Language.LanguageDirection) }}
+    {{ $isRTL := eq $langDir "rtl" }}
+    <section class="cf ph3 ph5-l pv3 pv4-l mt2 mt3-l">
+      <div class="mw8 center flex-l items-start">
+        {{ if not $isRTL }}
+        <div class="w-100 w-30-l order-1 order-2-l mb4 mb0-l pl0 pl5-l flex flex-column items-center">
+          <div class="dn-l mb3">
+            <div class="br-100 overflow-hidden" style="width: 11rem; height: 11rem;">
+              <img class="db w-100 h-100 object-cover" src="{{ $introImage }}" alt="Shervin Hakimi portrait">
+            </div>
+            {{ partial "profile-links-inline.html" (dict "page" . "class" "mt3 flex items-center justify-center") }}
+          </div>
+          <div class="dn db-l w-100">
+            <div class="shadow-4 br3 overflow-hidden" style="max-width: 18rem; margin-top: 2rem;">
+              <img class="db w-100" src="{{ $introImage }}" alt="Shervin Hakimi portrait">
+            </div>
+            {{ partial "profile-links-inline.html" (dict "page" . "class" "mt3 flex items-center justify-center") }}
+          </div>
+        </div>
+        {{ end }}
+        <div class="w-100 {{ if not $isRTL }}w-70-l order-2 order-1-l{{ end }} f4 f4-l lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }} {{ if $isRTL }}tr{{ else }}tj{{ end }}">
+          {{- .Content -}}
+        </div>
+      </div>
+    </section>
+
+    {{ with .Params.selected_projects }}
+      <section class="ph3 ph4-ns pv4 mt5">
+        <div class="mw8 center">
+          <div class="w-100 w-70-l">
+            <h2 class="f3 fw4">Selected Projects and Publications</h2>
+            <div class="mt3">
+              {{ range . }}
+                {{ $title := index . "title" }}
+                {{ $description := index . "description" }}
+                {{ $image := index . "image" }}
+                {{ $url := index . "url" }}
+                {{ with index . "page" }}
+                  {{ $proj := site.GetPage (printf "/%s/%s" $langCode .) }}
+                  {{ if not $proj }}
+                    {{ $proj = site.GetPage (printf "/%s" .) }}
+                  {{ end }}
+                  {{ with $proj }}
+                    {{ $title = .Title }}
+                    {{ $description = .Params.description | default .Summary }}
+                    {{ if not $image }}
+                      {{ $image = .Params.featured_image }}
+                    {{ end }}
+                    {{ $url = .RelPermalink }}
+                  {{ end }}
+                {{ end }}
+                {{ if not $url }}
+                  {{ $url = "#" }}
+                {{ end }}
+                <article class="mb4 pb3 bb b--black-10 flex-l items-start">
+                  {{ if $image }}
+                    <div class="w-100 w-30-l mb3 mb0-l pr3-l">
+                      <img class="db w-100 br2 shadow-4" src="{{ $image }}" alt="{{ $title }}" loading="lazy">
+                    </div>
+                  {{ end }}
+                  <div class="w-100 w-70-l">
+                    <a class="no-underline dim" href="{{ $url }}">
+                      <h3 class="f3 fw5 dark-gray mv1">{{ $title }}</h3>
+                    </a>
+                    <p class="mt2 f5 mid-gray">{{ $description }}</p>
+                  </div>
+                </article>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  </article>
+  {{ else }}
+    <article class="pa3 pa4-ns nested-copy-line-height">
+      <section class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+        {{- .Content -}}
+      </section>
+      {{ if ne (.Param "show_posts") false }}
+        <section class="flex-ns mt5 flex-wrap justify-around">
+          {{ range .Paginator.Pages }}
+            <div class="w-100 w-30-l mb4 relative bg-white">
+              {{ .Render "summary" }}
+            </div>
+          {{ end }}
+        </section>
+        {{- template "_internal/pagination.html" . -}}
+      {{ end }}
+    </article>
+  {{ end }}
+{{ end }}

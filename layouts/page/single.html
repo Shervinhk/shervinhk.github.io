@@ -1,0 +1,19 @@
+{{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  {{ $langDir := strings.ToLower (default "" $.Site.Language.LanguageDirection) }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+  {{ if not .Params.hide_section_title }}
+  <aside class="instapaper_ignoref b helvetica tracked ttu">{{ .CurrentSection.Title }}</aside>
+  {{ end }}
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy {{ if eq $langDir "rtl" }}tr{{ else }}tj{{ end }} f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}
