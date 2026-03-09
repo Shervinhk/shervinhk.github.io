@@ -9,6 +9,9 @@
       <ul class="pl0 mr3 flex items-center">
         {{ $projectsPath := printf "/%s/projects" .Site.Language.Lang }}
         {{ $projects := site.GetPage $projectsPath }}
+        {{ if not $projects }}
+          {{ $projects = site.GetPage "/projects" }}
+        {{ end }}
         {{ with $projects }}
         <li class="list f5 f4-ns fw4 dib pr3">
           <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
@@ -18,6 +21,9 @@
         {{ end }}
         {{ $postPath := printf "/%s/post" .Site.Language.Lang }}
         {{ $postSection := site.GetPage $postPath }}
+        {{ if not $postSection }}
+          {{ $postSection = site.GetPage "/post" }}
+        {{ end }}
         {{ with $postSection }}
         <li class="list f5 f4-ns fw4 dib pr3">
           <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
@@ -27,6 +33,9 @@
         {{ end }}
         {{ $interestsPath := printf "/%s/interests" .Site.Language.Lang }}
         {{ $interests := site.GetPage $interestsPath }}
+        {{ if not $interests }}
+          {{ $interests = site.GetPage "/interests" }}
+        {{ end }}
         {{ with $interests }}
         <li class="list f5 f4-ns fw4 dib pr3">
           <a class="hover-white white-90 no-underline" href="{{ .RelPermalink }}">
