@@ -1,9 +1,56 @@
+title = "Shervin Hakimi"
+baseURL = "https://shervinhk.github.io/"
+languageCode = "en-us"
+resourceDir = "resources"
+defaultContentLanguage = "en"
+sectionPagesMenu = "main"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 3
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[languages]
+  [languages.en]
+  title = "Shervin Hakimi"
+  weight = 1
+  contentDir = "content/en"
+
+  [languages.fr]
+  title = "Shervin Hakimi FR"
+  weight = 2
+  contentDir = "content/fr"
+
+  [languages.fa]
+  title = "شروین حکیمی"
+  weight = 3
+  contentDir = "content/fa"
+  languageDirection = "rtl"
+
+[params]
+text_color = ""
+author = ""
+favicon = ""
+site_logo = ""
+site_header_image = "/images/cb.JPG"
+description = "Selected notes and projects from Shervin Hakimi."
+background_color_class = "bg-black"
+recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
+
 [module]
-[[module.imports]]
-disable = false
-ignoreConfig = false
-ignoreImports = false
-path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+  [[module.imports]]
+  disable = false
+  ignoreConfig = false
+  ignoreImports = false
+  path = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
 
 [markup]
   [markup.goldmark]
