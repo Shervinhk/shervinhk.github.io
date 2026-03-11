@@ -32,7 +32,11 @@ profile_links:
 ---
 Hi, I'm Shervin. I grew up in a small town by the sea in Iran and now live in Waterloo, Canada. My background is in applied mathematics and electrical engineering.
 
-Most of my work has involved solving hard technical problems in different domains, usually with data, mathematical modeling, or machine learning. At [Mindpax](https://mindpax.me/en/), I worked on time series models for mental health data. At the [<span style="color: #1155cc;">University of Waterloo</span>](https://uwaterloo.ca/), I worked on kidney modeling and machine learning on large-scale diabetes data. I now work at [Numeris](https://numeris.ca/), where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I enjoy creating useful things with the tools I know well.
+Most of my work has involved solving hard technical problems in different domains, usually with data, mathematical modeling, or machine learning. 
+
+At [Mindpax](https://mindpax.me/en/), I worked on time series models for mental health data. At the [<span style="color: #1155cc;">University of Waterloo</span>](https://uwaterloo.ca/), I worked on kidney modeling and machine learning on large-scale diabetes data. 
+
+I now work at [Numeris](https://numeris.ca/), where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I enjoy creating useful things with the tools I know well.
 
 This website is a bit more personal than a resume. It's a place for some of my projects, and over time, for notes on things I'm learning and thinking about.
 
