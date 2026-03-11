@@ -30,14 +30,10 @@ profile_links:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=WBfd9NYAAAAJ&hl=en"
 ---
-Hi, I'm Shervin. I enjoy working on hard technical problems, particularly building statistical and machine learning models for complex systems and real world data. I'm an applied mathematician with a background in mathematics and electrical engineering.
+Hi, I'm Shervin. I grew up in a small town by the sea in Iran and now live in Waterloo, Canada. My background is in applied mathematics and electrical engineering.
 
-During my M.Math at the <span style="color: #1155cc;">University of Waterloo</span>, I worked on [physics based kidney modeling](https://github.com/Layton-Lab) to study drug interventions and developed machine learning models on Canada’s [largest diabetes dataset](https://diabetesaction.ca/) to analyze treatment response.
+Most of my work has involved solving hard technical problems in different domains, usually with data, mathematical modeling, or machine learning. At [Mindpax](https://mindpax.me/en/), I worked on time series models for mental health data. At the [<span style="color: #1155cc;">University of Waterloo</span>](https://uwaterloo.ca/), I worked on kidney modeling and machine learning on large-scale diabetes data. I now work at [Numeris](https://numeris.ca/), where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I enjoy creating useful things with the tools I know well.
 
-Earlier, I worked at [Mindpax](https://mindpax.me/en/) in Prague, developing multimodal time series models on patient data to identify relapse risk in bipolar disorder.
+This website is a bit more personal than a resume. It's a place for some of my projects, and over time, for notes on things I'm learning and thinking about.
 
-As an undergraduate at [Sharif University of Technology](https://www.ee.sharif.ir/en/about-the-faculty), I built EEG based brain computer interface systems enabling real time wheelchair control.
-
-I currently work as a data scientist at [Numeris](https://numeris.ca/), building production machine learning models on large scale behavioral and audience data.
-
-Outside work, I spend time on sports, [reading](https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l), and learning languages. I speak English, German, Persian, and French.
+Outside work, I enjoy reading, learning languages, and sports. I speak English, Persian, German, and French, and I hope to learn more.
