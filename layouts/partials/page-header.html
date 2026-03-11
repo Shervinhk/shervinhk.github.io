@@ -1,14 +1,5 @@
 {{/* Consistent header with cb.JPG for all pages and home link */}}
 <header class="cover bg-top vh-12" style="background-image: url('/images/cb.JPG');">
-  <div class="bg-transparent w-100 ph3 ph4-ns">
-    <a href="{{ "/" | relURL }}" class="f3 fw2 hover-white no-underline white-90 dib mt3">
-      {{ with .Site.Params.site_logo }}
-        <img src="{{ . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
-    </a>
-  </div>
   {{ partials.Include "site-navigation.html" . }}
   <div class="tc-l pv2 ph3 ph4-ns">
     {{ if not .Params.omit_header_text }}
