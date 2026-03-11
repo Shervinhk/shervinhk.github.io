@@ -1,7 +1,7 @@
 ---
 title: "Unsupervised Modeling of Long Horizon Behavioral Time Series"
 date: 2022-05-01
-featured_image: "/images/mental-health.jpg"
+featured_image: "/images/tsclust.png"
 omit_header_text: true
 description: "Built unsupervised time series pipelines to identify recurring long term trajectory patterns in irregular multi channel behavioral data using DTW, representation learning, and density based clustering."
 summary: "Unsupervised time series models that surface long horizon trajectories and clusters from irregular behavioral data."

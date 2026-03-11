@@ -18,11 +18,11 @@ selected_projects:
   - page: "projects/mental-health-clustering"
     title: "Unsupervised Modeling of Long Horizon Behavioral Time Series"
     description: "Built unsupervised time series pipelines to identify recurring long term trajectory patterns in irregular multi channel behavioral data using Dynamic Time Warping, representation learning, and density based clustering."
-    image: ""
+    image: "/images/tsclust.png"
   - page: "projects/eeg-wheelchair"
     title: "EEG Driven Brain Computer Interfaces for Assistive Mobility"
     description: "Designed and implemented an end to end EEG based brain computer interface for real time wheelchair control using Common Spatial Pattern feature extraction and frequency domain classification to translate neural signals into reliable movement commands."
-    image: ""
+    image: "/images/eeg.png"
 profile_links:
   - name: "GitHub"
     url: "https://github.com/Shervinhk"

@@ -1,7 +1,7 @@
 ---
 title: "Robust and Interpretable Deep Learning for Genomic Data"
 date: 2023-08-01
-featured_image: "/images/genetics.jpg"
+featured_image: "/images/robust.png"
 omit_header_text: true
 description: "Built adversarially trained deep learning models for genomics to test sensitivity of gene expression predictions to small perturbations and improve biological interpretability for drug discovery."
 summary: "Adversarially trained genomic models to improve robustness and interpretability of gene expression predictions."

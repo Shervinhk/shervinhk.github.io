@@ -3,13 +3,25 @@
     <section class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
       {{- .Content -}}
     </section>
-    <section class="mt5">
-      {{ range .Pages }}
-        <div class="w-100 mb4">
-          {{ .Render "summary-with-image" }}
-        </div>
-      {{ end }}
+    <section class="ph3 ph4-ns pv4">
+      <div class="mw8 center">
+        {{ range .Pages }}
+          {{ $image := .Params.featured_image }}
+          <article class="mb4 pb3 bb b--black-10 flex-l items-start">
+            {{ if $image }}
+              <div class="w-100 w-30-l mb3 mb0-l pr3-l">
+                <img class="db w-100 br2 shadow-4" src="{{ $image }}" alt="{{ .Title }}" loading="lazy">
+              </div>
+            {{ end }}
+            <div class="w-100 {{ if $image }}w-70-l{{ end }}">
+              <a class="no-underline dim" href="{{ .RelPermalink }}">
+                <h3 class="f3 fw5 dark-gray mv1">{{ .Title }}</h3>
+              </a>
+              <p class="mt2 f5 mid-gray">{{ .Params.description | default .Summary }}</p>
+            </div>
+          </article>
+        {{ end }}
+      </div>
     </section>
-    {{- template "_internal/pagination.html" . -}}
   </article>
 {{ end }}

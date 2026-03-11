@@ -1,7 +1,7 @@
 ---
 title: "EEG Driven Brain Computer Interfaces for Assistive Mobility"
 date: 2021-02-01
-featured_image: "/images/eeg-wheelchair.jpg"
+featured_image: "/images/eeg.png"
 omit_header_text: true
 description: "Designed and implemented an end to end EEG based BCI for real time wheelchair control using CSP feature extraction and frequency domain classification to translate neural signals into reliable movement commands."
 summary: "EEG based BCI with CSP and frequency domain classifiers for real time wheelchair control."

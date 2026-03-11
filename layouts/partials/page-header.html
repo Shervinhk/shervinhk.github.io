@@ -1,7 +1,7 @@
 {{/* Consistent header with cb.JPG for all pages and home link */}}
 <header class="cover bg-top vh-12" style="background-image: url('/images/cb.JPG');">
   <div class="bg-transparent w-100 mw8 center ph3 ph4-ns">
-    <a href="{{ "/" | relLangURL }}" class="f3 fw2 hover-white no-underline white-90 dib mt3">
+    <a href="{{ "/" | relURL }}" class="f3 fw2 hover-white no-underline white-90 dib mt3">
       {{ with .Site.Params.site_logo }}
         <img src="{{ . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
       {{ else }}
