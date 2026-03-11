@@ -40,4 +40,5 @@ I now work at [Numeris](https://numeris.ca/), where I build machine learning mod
 
 This website is a bit more personal than a resume. It's a place for some of my projects, and over time, for notes on things I'm learning and thinking about.
 
-Outside work, I enjoy reading, learning languages, and sports. I speak English, Persian, German, and French, and I hope to learn more.
+Outside work, I enjoy reading, learning languages, and sports. 
+I speak English, Persian, German, and French, and I hope to learn more.
