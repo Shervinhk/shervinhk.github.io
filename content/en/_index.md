@@ -33,7 +33,7 @@ profile_links:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=WBfd9NYAAAAJ&hl=en"
 ---
-<p>Hi, I’m Shervin. I grew up in a small town by the sea in Iran and now live in Waterloo, Canada. My background is in applied mathematics and electrical engineering.</p>
+<p>Hi, I’m Shervin. I grew up in a small town by the sea in Iran and now live in Canada. My background is in applied mathematics and electrical engineering.</p>
 
 <p>Most of my work has sat at the intersection of data, mathematical modeling, and machine learning.</p>
 
