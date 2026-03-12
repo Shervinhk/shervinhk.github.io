@@ -45,5 +45,5 @@ profile_links:
 
 <p>This website is a little more personal than a resume. It’s a place for some of my projects, and over time, for notes on things I’m learning and thinking about.</p>
 
-<p>Outside work, I enjoy <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">reading</a>, learning languages, and sports.
+<p>Outside work, I enjoy <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">reading</a>, learning languages, and sports.<br>
 I speak English, Persian, German, and French, and I hope to learn more.</p>
