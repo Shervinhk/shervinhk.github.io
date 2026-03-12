@@ -30,15 +30,14 @@ profile_links:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=WBfd9NYAAAAJ&hl=en"
 ---
-Hi, I'm Shervin. I grew up in a small town by the sea in Iran and now live in Waterloo, Canada. My background is in applied mathematics and electrical engineering.
+<p>Hi, I’m Shervin. I grew up in a small town by the sea in Iran and now live in Waterloo, Canada. My background is in applied mathematics and electrical engineering.</p>
 
-Most of my work has involved solving hard technical problems in different domains, usually with data, mathematical modeling, or machine learning. 
+<p>Most of my work has sat at the intersection of data, mathematical modeling, and machine learning.</p>
 
-At Mindpax, I worked on time series models for mental health data. At the <span style="color: #1155cc;">University of Waterloo</span>, I worked on kidney modeling and machine learning on large-scale diabetes data. 
+<p>As an undergraduate at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, I worked on EEG-based brain-computer interface systems for real-time wheelchair control. At <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time series models for mental health data. At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning on large-scale diabetes data.</p>
 
-I now work at Numeris, where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I enjoy creating useful things with the tools I know well.
+<p>I now work at <a href="https://numeris.ca/" target="_blank" rel="noopener noreferrer">Numeris</a>, where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I like building useful things with the tools I know well.</p>
 
-This website is a bit more personal than a resume. It's a place for some of my projects, and over time, for notes on things I'm learning and thinking about.
+<p>This website is a little more personal than a resume. It’s a place for some of my projects, and over time, for notes on things I’m learning and thinking about.</p>
 
-Outside work, I enjoy reading, learning languages, and sports.
-I speak English, Persian, German, and French, and I hope to learn more.
+<p>Outside work, I enjoy <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">reading</a>, learning languages, and sports. I speak English, Persian, German, and French, and I hope to learn more.</p>
