@@ -34,7 +34,9 @@ profile_links:
 
 <p>Most of my work has sat at the intersection of data, mathematical modeling, and machine learning.</p>
 
-<p>As an undergraduate at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, I worked on EEG based brain computer interface systems for real time wheelchair control. At <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time series models for mental health data. At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning on large-scale diabetes data.</p>
+<p>As an undergraduate at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, I worked on EEG based brain computer interface systems for real time wheelchair control. At <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time series models for mental health data.
+ 
+ At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning on large scale diabetes data.</p>
 
 <p>I now work at <a href="https://numeris.ca/" target="_blank" rel="noopener noreferrer">Numeris</a>, where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I like building useful things with the tools I know well.</p>
 
