@@ -30,17 +30,10 @@ profile_links:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=WBfd9NYAAAAJ&hl=en"
 ---
-<p>Hi, I’m Shervin. I grew up in a small town by the sea in Iran and now live in Canada. My background is in applied mathematics and electrical engineering.</p>
+<p>Hi, I’m Shervin. I’m an applied mathematician and engineer with a focus on modeling, data, and machine learning. I grew up between Tehran and a small town by the sea in Iran, and now live in Canada.</p>
 
-<p>Most of my work has sat at the intersection of data, mathematical modeling, and machine learning.</p>
+<p>I studied electrical engineering at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, where I worked on EEG-based brain-computer interface systems for real-time wheelchair control. Later, at <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time-series models for mental health data. At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><span style="color: #1155cc;">University of Waterloo</span></a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning using large-scale diabetes data. I now work at <a href="https://numeris.ca/" target="_blank" rel="noopener noreferrer">Numeris</a>, building models with behavioral and audience data.</p>
 
-<p>As an undergraduate at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, I worked on EEG based brain computer interface systems for real time wheelchair control. At <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time series models for mental health data.
- 
- At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning on large scale diabetes data.</p>
+<p>This site is a little more personal than a resume. It’s where I share projects, notes, and some of my writing.</p>
 
-<p>I now work at <a href="https://numeris.ca/" target="_blank" rel="noopener noreferrer">Numeris</a>, where I build machine learning models using large behavioral and audience datasets. What connects all of this for me is that I like building useful things with the tools I know well.</p>
-
-<p>This website is a little more personal than a resume. It’s a place for some of my projects, and over time, for notes on things I’m learning and thinking about.</p>
-
-<p>Outside work, I enjoy <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">reading</a>, learning languages, and sports.<br>
-I speak English, Persian, German, and French, and I hope to learn more.</p>
+<p>Outside work, I <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">read</a>, write, take photographs, learn languages, stay active, and travel. I’ve spent a lot of time traveling on my own, and adventure has shaped my life in a real way. I speak English, Persian, German, and French.</p>
