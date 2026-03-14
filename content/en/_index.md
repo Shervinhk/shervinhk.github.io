@@ -33,10 +33,10 @@ profile_links:
   - name: "Google Scholar"
     url: "https://scholar.google.com/citations?user=WBfd9NYAAAAJ&hl=en"
 ---
-<p>Hi, I’m Shervin. I’m an applied mathematician and engineer with a focus on machine learning. I grew up between Tehran and a small town by the sea in Iran, and now live in Canada.</p>
+<p>Hi, I’m Shervin. I’m an applied mathematician and engineer with a focus on machine learning. I grew up between a small town by the sea and Tehran, and now live in Canada.</p>
 
 <p>I studied electrical engineering at <a href="https://www.ee.sharif.ir/en/about-the-faculty" target="_blank" rel="noopener noreferrer">Sharif University of Technology</a>, where I worked on EEG based brain computer interface systems for wheelchair control. Later, at <a href="https://mindpax.me/en/" target="_blank" rel="noopener noreferrer">Mindpax</a>, I worked on time series models for mental health data. At the <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer"><span style="color: #1155cc;">University of Waterloo</span></a>, I worked on <a href="https://github.com/Layton-Lab" target="_blank" rel="noopener noreferrer">kidney modeling</a> and machine learning using large scale diabetes data. I now work at <a href="https://numeris.ca/" target="_blank" rel="noopener noreferrer">Numeris</a>, building models with behavioral and audience data.</p>
 
 <p>This site is a little more personal than a resume. It’s where I share projects, notes, and some of my writing.</p>
 
-<p>Outside work, I <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">read</a>, write, take photographs, learn languages, stay active, and travel. I’ve spent a lot of time traveling on my own, and adventure has shaped my life in a real way. I speak English, Persian, German, and French.</p>
+<p>Outside work, I <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">read</a>, write, take photographs, learn languages, stay active, and travel. I’ve spent a lot of time traveling on my own, and adventure has shaped my life in a tangible way. I speak English, Persian, German, and French.</p>
