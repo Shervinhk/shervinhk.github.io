@@ -39,4 +39,4 @@ profile_links:
 
 <p>This site is a little more personal than a resume. It’s where I share projects, notes, and some of my writing.</p>
 
-<p>Outside work, I <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">read</a>, write, take photographs, learn languages, stay active, and travel. I’ve spent a lot of time traveling on my own, and adventure has shaped my life in a tangible way. I speak English, Persian, German, and French.</p>
+<p>Outside work, I <a href="https://www.goodreads.com/user/show/13302370-shervin-hakimi?ref=nav_profile_l" target="_blank" rel="noopener noreferrer">read</a>, write, take photographs, learn languages, stay active, and travel. I’ve spent a good amount of time traveling on my own, and adventuring. I speak English, Persian, German, and French, and hoping to learn more.</p>
