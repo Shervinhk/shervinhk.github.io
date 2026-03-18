@@ -31,8 +31,8 @@ type: page
 
 <div class="mv5">
   <h2 class="f2 mb3">Learning Languages</h2>
-  <p class="f4 lh-copy mid-gray">I’ve had a long standing interest in learning languages. I’ve always been drawn to the way thoughts, images, and feeling can be shaped through words, expression, and tone. The languages I’ve loved most were the ones that made me feel that I wanted to become part of them, and have them become part of me.</p>
-  <p class="f4 lh-copy mid-gray">For me, learning a language has never been only about words or vocabulary. It also includes culture, habits, and the way people move through life. I learned German when I was five by watching cartoons, later learned English without taking classes, eventually reached a C1 level in German, and now also speak French. I may write about languages in <a href="/post/">Notes</a> over time, but the interest itself goes well beyond study techniques or grammar.</p>
+  <p class="f4 lh-copy mid-gray">I’ve had a long history of being interested in languages. I’ve always found it interesting how thoughts, images, and even feeling can be shaped through words, expression, and tone. The languages I’ve loved most were the ones that made me feel like I wanted to be part of them, and have them become part of me.</p>
+  <p class="f4 lh-copy mid-gray">For me, learning a language has never been just about words or vocabulary. It also includes culture, habits, and the way people move through life. I learned German when I was five by watching cartoons, later learned English without taking classes, eventually reached a C1 level in German, and now also speak French. I may write about languages in <a href="/post/">Notes</a> over time, but for me the interest goes well beyond grammar or study methods.</p>
 </div>
 
 <div class="mv5">
